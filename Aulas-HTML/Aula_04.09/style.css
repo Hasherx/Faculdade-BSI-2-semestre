@@ -1,0 +1,34 @@
+.principal{ 
+    background-color: rgb(204, 201, 201); 
+    text-align: center; 
+
+}
+.titulo-centralizado{ 
+    text-align: center;
+    display: block;
+}
+em strong{
+    color:red;
+}
+#banner{
+    width: 100%;
+}
+.itens{
+    font-style: italic; 
+    text-align: left;
+    
+}
+.beneficios{
+    text-align: center;
+}
+.beneficios img{
+    width: 45%;
+}
+.ulimg{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-between; 
+     
+    
+}

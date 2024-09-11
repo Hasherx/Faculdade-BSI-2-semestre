@@ -1,0 +1,118 @@
+body{/*cor do corpo*/
+    background-color: #CCCCCC;
+}
+
+#barber {/*personalização da imagem */
+    max-width: 10%;
+    max-height: 10%;
+    border: 20px double #ff6550;
+    padding: 20px;
+}
+
+header{
+
+    padding: 30px;
+
+}
+
+.cabecalho{
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+h1{ /*Personalizaçao do Titulo*/
+    text-align: center;
+}
+
+nav{
+    
+    
+
+}
+
+.principal{
+
+}
+
+p{ /*Personalizaçao do paragrafo*/
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+.diferencial{
+
+}
+
+#missao{/*Personalizaçao do elemento missao*/
+    font-size: 20px;
+}
+
+em strong{/*Faz o elemento q esta dentro do strong e dentro do em*/
+    color: red;
+}
+
+.itens{ /*Personalizaçao da tabela*/
+    font-style: italic;
+}
+
+.menus{
+
+
+    color:black;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+    font-size: 22px;
+
+    display:inline;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 15%;
+
+    margin-right: 10%;
+
+    margin-left: 5%;   
+    
+}
+
+@keyframes mover-e-mudar-cor {
+    0% {
+      left: 0px;
+      background: blue;
+    }
+  
+    50% {
+      left: 160px;
+      background: red;
+    }
+  
+    100% {
+      left: 0px;
+      background: blue;
+    }
+  }
+
+  
+  
+  .bola {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: mover-e-mudar-cor 4s infinite;
+  }
+
+  .bola:hover{
+
+    width: 100px;
+
+  }

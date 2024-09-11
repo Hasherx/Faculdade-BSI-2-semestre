@@ -1,0 +1,119 @@
+/* Definindo o layout principal para seções */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section01 {
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+
+.left01 {
+    width: 150px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    flex-grow: 1;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.allbtt {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button {
+    padding: 5px 15px;
+}
+
+.banner {
+    width: 100%;
+    height: 240px;
+}
+
+.section02 {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.section02 p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
+.section03 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.section03 h3{
+    text-align: center;
+}
+.ulh3 {
+    background-color: #b1f54b;
+    padding: 20px;
+    width: 50%;
+}
+
+.section03 img {
+    width: 45%;
+    height: auto;
+}
+
+/* Seção 4 com layout similar */
+.section04 {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.section04 p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+/* Seção 5 com três colunas */
+.section05 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.textocentral h3{
+    text-align: center;
+}
+
+.section05 .leftimg,
+.section05 .rightimg {
+    width: 25%;
+    height: auto;
+}
+
+.section05 .textocentral {
+    background-color:  #b1f54b;
+    padding: 20px;
+    width: 40%;
+}
+
+.finalbanner {
+    width: 100%;
+    height: 240px;
+}

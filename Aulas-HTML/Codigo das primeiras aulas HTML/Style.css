@@ -1,0 +1,50 @@
+p{
+	text-align:center;
+	background:#CCCCCC;
+	}
+	
+h1{
+	background:#0000ff;
+}
+h2{
+	background:#000000;
+	color:white;
+}
+h3{
+	background:#ff0000;
+}
+h4{
+	background:#ffff00;
+}
+h5{
+	background:#00ff00;
+}
+
+p{
+	background:#ff0000;
+}
+div{
+	background:#CCCCCC;
+}
+body{
+	background:#CCCCCC;
+}
+#idu{
+	color:blue;
+}
+
+table{
+	width:100%;
+	border-collapse: collapse;
+	font-size: 18px;
+	margin: 15px 0;
+	text-align: left;
+}
+
+th, td {
+	border: 2px solid #000000;
+	padding: 9px;
+	color: white;
+	background-color: grey
+	
+}
