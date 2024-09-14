@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2e3;
+}
+
+.section01 {
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+
+.left01 {
+    width: 150px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    flex-grow: 1;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.allbtt {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button {
+    padding: 5px 15px;
+}
+
+.section02 {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.section02 p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.banner {
+    padding-top: 20px;
+    width: 100%;
+    height: 240px;
+}
+
+
+.section03 {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+
+.section03 p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 70%;
+}
+/* teste para ver se posso colocar todos os section iguais em uma mesma linha de codigo */
+.section04,.section05,.section06,.section07,.section08 {
+    display: flex;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.section04 img,.section05 img,.section06 img,.section07 img,.section08 img {
+    padding-right: 2.5%;
+    width: 15%;
+    height: auto;
+}
+.rightcontent{
+    background-color: #291f2c2c;
+    width: 40%;
+    padding: 20px;
+    padding-right: 500px;
+}
+
+.rightcontent h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Deu certo!!!! */
