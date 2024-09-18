@@ -1,34 +1,37 @@
 .principal{ 
-    background-color: rgb(204, 201, 201); 
-    text-align: center; 
+    background-color: rgb(204, 201, 201); /* Define a cor de fundo da seção principal */
+    text-align: center; /* Centraliza o texto da seção principal */
+}
 
-}
 .titulo-centralizado{ 
-    text-align: center;
-    display: block;
+    text-align: center; /* Centraliza o texto do título */
+    display: block; /* Exibe o título como um bloco */
 }
+
 em strong{
-    color:red;
+    color:red; /* Define a cor do texto em negrito e itálico como vermelho */
 }
+
 #banner{
-    width: 100%;
+    width: 100%; /* Define a largura da imagem com o id "banner" como 100% da largura da tela */
 }
+
 .itens{
-    font-style: italic; 
-    text-align: left;
-    
+    font-style: italic; /* Define o texto como itálico */
+    text-align: left; /* Alinha o texto à esquerda */
 }
+
 .beneficios{
-    text-align: center;
+    text-align: center; /* Centraliza o texto da seção de benefícios */
 }
+
 .beneficios img{
-    width: 45%;
+    width: 45%; /* Define a largura da imagem dentro da seção de benefícios como 45% da largura da tela */
 }
+
 .ulimg{
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    justify-content: space-between; 
-     
-    
+    display: flex; /* Define o layout da lista não ordenada como flex */
+    margin-left: 20%; /* Define a margem esquerda da lista não ordenada como 20% da largura da tela */
+    margin-right: 20%; /* Define a margem direita da lista não ordenada como 20% da largura da tela */
+    justify-content: space-between; /* Distribui os itens da lista não ordenada uniformemente com espaço entre eles */
 }

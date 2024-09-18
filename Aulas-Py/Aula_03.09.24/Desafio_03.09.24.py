@@ -1,8 +1,8 @@
 #lista
 
-carros=["fiat", "bentley", "bmw", "audi", "chevrolet"]
+carros=[""]
 
-carros.append("Rolls Royce")
-carros.remove("chevrolet")
+
+carros.append(input("Escreva o nome de um carro: "))
 
 print(carros)
