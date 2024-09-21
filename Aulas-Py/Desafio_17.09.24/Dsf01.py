@@ -14,3 +14,4 @@ randomnum = int(input("Insira um numero aleatorio : "))
 # Loop para repetir o numero enserido em idade_ate_100 quantas vezes for colocado em randomnum
 for i in range(randomnum):
     print(f"{txtate100}\n")
+    
