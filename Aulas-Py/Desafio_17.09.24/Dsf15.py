@@ -1,22 +1,12 @@
+import random
 
-def fatorial(n):
-    if n == 0 or n == 1:  # Condição base: fatorial de 0 e 1 é 1
-        return 1
-    else:
-        return n * fatorial(n - 1)  # Chama a si mesma com n-1
+numero_aleatorio = random.randint(1, 10)
 
-def calcular_fatorial():
-    try:
-        numero = int(input("Digite um número inteiro não negativo: "))
-        
-        if numero < 0:
-            print("Erro: Não existe fatorial para números negativos.")
-        else:
-            resultado = fatorial(numero)
-            print(f"O fatorial de {numero} é {resultado}.")
-    
-    except ValueError:
-        print("Erro: Por favor, insira um número inteiro válido.")
+palpite = int(input("Adivinhe o número que estou pensando entre 1 e 10: "))
 
-
-calcular_fatorial()
+if palpite == numero_aleatorio:
+    print("Parabéns! Você acertou!")
+elif palpite > numero_aleatorio:
+    print(f"Errou! Seu palpite foi maior que o número. O número era {numero_aleatorio}.")
+else:
+    print(f"Errou! Seu palpite foi menor que o número. O número era {numero_aleatorio}.")
