@@ -1,0 +1,142 @@
+body{
+	background: #dc843b;
+}
+header{
+	background: #e48c3e;
+	padding: 40px;
+}
+
+.logo{
+	padding: 15px;
+}
+.novecentos{
+	position: absolute;
+	top:60px;
+	right: 59px;
+}
+.section01 h1{
+	padding-left: 58px;
+	position: absolute;
+	display: inline-block;
+	top: 150px;
+	color: #891a1c;
+	text-decoration:overline;
+	font-size: 80px;
+}
+nav{
+	position: absolute;
+	top: 60px;
+	right: 80px;
+	z-index: 1000;
+}
+
+nav li{
+	display:inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	display: inline-block;
+	color:#891a1c;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.banner01{
+	background: #e48c3e;
+	width: 100%;
+}
+
+.section02{
+	background: #e48c3e;
+	padding: 20px;
+}
+
+.centtitle{
+	padding: 15px;
+	text-align: center;
+	font-size: 35px;
+	color: #891a1c;
+	font-weight: bold;
+}
+.section03 ul{
+	list-style-type: telugu;
+}
+.section03{
+	background: #fbaa48;
+	padding: 30px;
+	padding-top:0px ;
+}
+.section03 h3{
+	position: absolute;
+	padding-left:280px ;
+	color: #891a1c;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+.bloqueio{
+	padding-top: 40px;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 385px;
+}
+.imgright{
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	vertical-align: top;
+}
+.itens{
+	padding-left: 50px;
+	padding-bottom: 31px;
+}
+.lastitn{
+	padding-left: 50px;
+	padding-bottom: 0px;
+}
+.section04{
+	background: #e48c3e;
+	padding: 20px;
+}
+.section05{
+
+}
+.leftimg{
+	position: absolute;
+	width: 30%;
+	height: 56%;
+
+}
+.centralizado{
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 550px;
+	padding-right: 200px;
+	background:#fbaa48 ;
+
+}
+.centralizado h3{
+	padding-left: 60px;
+	color: #891a1c;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+.ulcent{
+	text-align: left;
+	list-style-type: urdu;
+}
+.rightimg{
+	position: absolute;
+	right: 0px;
+	height: 56%;
+	width: 30%;
+}
+
+.itens01{
+	padding: 20px;
+}

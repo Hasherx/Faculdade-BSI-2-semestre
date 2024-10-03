@@ -1,0 +1,44 @@
+body{
+	background: #dc843b;
+}
+header{
+	background: #e48c3e;
+	padding: 40px;
+}
+
+.logo{
+	padding: 15px;
+}
+.novecentos{
+	position: absolute;
+	top:60px;
+	right: 59px;
+}
+.section01 h1{
+	padding-left: 58px;
+	position: absolute;
+	display: inline-block;
+	top: 150px;
+	color: #891a1c;
+	text-decoration: overline;
+	font-size: 80px;
+}
+nav{
+	position: absolute;
+	top: 60px;
+	right: 80px;
+	z-index: 1000;
+}
+
+nav li{
+	display:inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	color:#891a1c;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
