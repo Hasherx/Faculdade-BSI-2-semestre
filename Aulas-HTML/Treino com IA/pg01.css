@@ -1,0 +1,201 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #4a3728;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: rgba(139, 69, 19, 0.9);
+    color: #f5e6d3;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-height: 160px;
+    width: auto;
+    margin-right: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.titulo-empresa {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navegacao .menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 25px;
+    color: #f5e6d3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.menu-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #ffa07a;
+    transition: width 0.3s ease;
+}
+
+.menu-item:hover {
+    color: #ffa07a;
+}
+
+.menu-item:hover::after {
+    width: 100%;
+}
+
+/* Seção de boas-vindas */
+.secao-boas-vindas {
+    display: flex;
+    align-items: stretch;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-boas-vindas {
+    width: 50%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-boas-vindas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgba(210, 180, 140, 0.9);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-boas-vindas {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #8b4513;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.descricao-boas-vindas {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4a3728;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.imagem-ilustrativa {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    margin-top: auto;
+    border-radius: 8px;
+}
+
+/* Seção de serviços em destaque */
+.secao-servicos-destaque {
+    background-color: rgba(205, 133, 63, 0.9);
+    padding: 3rem;
+    text-align: center;
+    color: #f5e6d3;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção de lista de serviços */
+.secao-lista-servicos {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-servicos-esquerda, .imagem-servicos-direita {
+    width: 25%;
+    height: auto;
+    max-height: 320px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.imagem-servicos-esquerda:hover, .imagem-servicos-direita:hover {
+    transform: scale(1.05);
+}
+
+.conteudo-servicos {
+    flex: 1;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo-lista-servicos {
+    font-family: 'Playfair Display', serif;
+    color: #8b4513;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.lista-servicos {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.item-servico {
+    margin-bottom: 0.8rem;
+    color: #4a3728;
+    font-size: 1.1rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+.item-servico::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #8b4513;
+}
