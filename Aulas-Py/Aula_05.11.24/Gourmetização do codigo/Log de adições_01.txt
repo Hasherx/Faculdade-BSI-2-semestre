@@ -1,0 +1,30 @@
+# Adições que foram postas na Goumertização_01.py
+
+## Cálculos de Peso Ideal
+- Implementação das fórmulas:
+  - Peso mínimo ideal: peso_ideal_min = 19 * (altura ** 2)
+  - Peso máximo ideal: peso_ideal_max = 25 * (altura ** 2)
+  - Diferença para peso mínimo: diferenca_min = peso_ideal_min - peso
+  - Diferença para peso máximo: diferenca_max = peso - peso_ideal_max
+
+## Mensagens Personalizadas
+- Abaixo do peso: Informação sobre quantidade de peso a ganhar
+- Peso ideal: Exibição da faixa de peso recomendada
+- Sobrepeso e obesidade: Informação sobre quantidade de peso a perder
+
+## Ajustes nos Intervalos de IMC
+- Alteração nas condições:
+  - De: 25 <= imc <= 29 | Para: 25 < imc <= 29
+  - De: 29 <= imc <= 34 | Para: 29 < imc <= 34
+  - De: 34 <= imc <= 39 | Para: 34 < imc <= 39
+
+## Funcionalidade de Tecla Enter
+- Adição da função:
+  ```python
+  def pressionar_enter(event):
+      mostrar_mensagem()
+  ```
+- Vinculação do evento:
+  ```python
+  janela.bind('<Return>', pressionar_enter)
+  ```

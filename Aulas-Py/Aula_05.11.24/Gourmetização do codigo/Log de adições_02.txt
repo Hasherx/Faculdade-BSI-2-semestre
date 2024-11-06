@@ -1,0 +1,59 @@
+# Adições que foram postas na Goumertização_02.py
+
+## Validação de Dados
+- Verificação de campos vazios
+- Substituição automática de vírgula por ponto
+- Validação de valores negativos ou zero para peso e altura
+
+## Interface Gráfica
+- Adição de menu com opções "Arquivo" e "Visualizar"
+- Implementação de tooltips (dicas) nos campos de entrada
+- Layout mais organizado usando grid
+- Melhor redimensionamento da janela
+
+## Funcionalidades
+- Botão "Limpar Campos" no menu
+- Tabela de referência de IMC acessível pelo menu
+- Gráfico visual do IMC
+- Suporte à tecla Enter para calcular
+
+## Cálculos e Mensagens
+- Cálculo de peso ideal mínimo e máximo
+- Mensagens personalizadas com nome do usuário
+- Informação sobre quanto peso ganhar/perder
+- Formatação de números com duas casas decimais
+
+## Gráfico de IMC
+- Visualização colorida das faixas de IMC
+- Linha vertical indicando o IMC atual
+- Legendas para cada faixa
+- Cores diferentes para cada categoria
+
+## Tratamento de Erros
+- Mensagens de erro mais informativas
+- Try/except para tratar erros de conversão
+- Feedback visual para o usuário
+- Debug com prints para erros no gráfico
+
+## Organização do Código
+- Funções bem definidas e separadas
+- Comentários explicativos
+- Código mais modular e organizado
+
+## Estilo e Aparência
+- Estilo consistente para labels e botões
+- Espaçamento adequado entre elementos
+- Janelas com tamanhos apropriados
+- Cores significativas no gráfico
+
+## Usabilidade
+- Interface mais intuitiva
+- Feedback visual imediato
+- Múltiplas formas de interação (mouse/teclado)
+- Informações mais detalhadas sobre o IMC
+
+## Recursos Visuais
+- Gráfico interativo
+- Tabela de referência formatada
+- Tooltips informativos
+- Menu organizado
