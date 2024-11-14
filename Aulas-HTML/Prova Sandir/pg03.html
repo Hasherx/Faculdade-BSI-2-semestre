@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="pg03.css">
+        <link rel="stylesheet" href="reset.css">
+        <script>
+            function enviarFormulario() {
+                alert("Sua mensagem foi enviada com sucesso! Em breve, entraremos em contato.");
+                return false; 
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="Logo da Empresa">
+            <nav>
+                <ul>
+                    <li><a href="pg01.html">HOME</a></li>
+                    <li><a href="pg02.html">PRODUTOS</a></li>
+                    <li><a href="pg03.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Entre em contato conosco</h1>
+                <form action="#" method="post" onsubmit="return enviarFormulario()">
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div>
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone">
+                    </div>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
+
